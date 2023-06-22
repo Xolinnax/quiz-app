@@ -1,0 +1,291 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+body
+{
+    display:flex;
+    margin:0;
+    background-color: #dde6ed;
+    background-image: url("https://www.transparenttextures.com/patterns/cream-pixels.png");
+}
+#root
+{
+    width:100%;
+}
+
+/* -----------------------------------------------------------------Home------------------------------------------------------------- */
+
+header
+{
+    display:flex;
+    height:5rem;
+    background-color:#27374D;
+    padding:0;
+    margin:0;
+    flex-wrap:wrap;
+    align-content:center;
+    justify-content:center;
+}
+
+footer
+{
+    width:100%;
+    position:fixed;
+    top:75%;
+    margin-top:5%;
+    background-color: #526D82;
+}
+
+.footerText
+{
+    padding:15px;
+    font-family: 'Montserrat', sans-serif;
+    color:#DDE6ED;
+    margin:0;
+}
+
+.madeBy
+{
+    padding-bottom:10px;
+}
+
+.questionsFrom
+{
+    padding-bottom:1000px;
+}
+
+a 
+{
+    color: #DDE6ED;
+}
+  a:visited 
+{
+    color: #DDE6ED;
+}
+a:hover 
+{
+    color: #DDE6ED;
+}
+a:active 
+{
+    color: #DDE6ED;
+}
+
+.title
+{   
+    font-family: 'Montserrat', sans-serif;
+    color:#DDE6ED;
+    margin:0;
+    height:100%;
+}
+
+.app
+{
+    text-align:center;
+}
+
+.testText
+{
+    font-family: 'Parisienne', cursive;
+    font-weight:lighter;
+    font-size:100px;
+    padding-top:3rem;
+    margin-bottom:50px;
+    color:#27374D;
+}
+
+.startButton
+{
+    font-family: 'Geologica', sans-serif;
+    font-size:1.5rem;
+    background-color:#27374D;
+    border:none;
+    border-radius:5px;
+    color:#DDE6ED;
+    height:3rem;
+    width:7rem;
+}
+
+.startButton:hover
+{
+    cursor:pointer;
+}
+
+.difficultySelector
+{
+    width:100%;
+    margin:0;
+    padding-top:40px;
+}
+
+.difficultyTitle
+{
+    font-family: 'Geologica', sans-serif;
+}
+
+.difficultyDropdown
+{
+    background-color: #27374D;
+    color:white;
+    font-family: 'Geologica', sans-serif;
+    height:2rem;
+    width:4rem;
+    appearance:none;
+    text-align:center;
+}
+
+.difficultyDropdown:focus
+{
+    background-color: #27374D;
+    color:white;
+    font-family: 'Geologica', sans-serif;
+    height:2rem;
+    width:4rem;
+    appearance:none;
+    text-align:center;
+}
+
+select option
+{
+    line-height:1000px;
+    padding:100px;   
+}
+
+
+
+/* -----------------------------------------------------------------Quiz------------------------------------------------------------- */
+
+.question
+{
+    border:2px solid #27374D;
+    font-size:0.9vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:50px;
+    background-color: #526D82;
+    border-radius:5px;
+    color:#DDE6ED;
+    font-family: 'Montserrat', sans-serif;
+    flex-wrap:wrap; 
+
+}
+
+.questionText
+{
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.nextQuestion
+{
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    padding-top:50px;
+    padding-bottom:0;
+    margin:0;
+}
+
+.option
+{
+    border:2px solid #27374D;    
+    padding-left:10px;
+    padding-right:10px;
+    font-size:0.7vw;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color: #9DB2BF;
+    border-radius:5px;
+    color:#DDE6ED;
+    font-family: 'Montserrat', sans-serif;
+    flex-wrap:nowrap;
+}
+
+.option:hover
+{
+    cursor:pointer;
+}
+
+.wrong
+{
+    border:2px solid #2a0101;
+    background-color:#d18585;
+    color:#2a0101;
+}
+
+.correct
+{
+    border:2px solid #012a03;
+    background-color:#90d0b0;
+    color:#012a03;
+}
+
+.nextButton
+{
+    font-family: 'Geologica', sans-serif;
+    font-size:1.125rem;
+    background-color:#27374D;
+    border:none;
+    border-radius:5px;
+    color:#DDE6ED;
+    height:2.5rem;
+    width:5rem; 
+    font-weight:bolder;
+}
+
+.nextButton:hover
+{
+    cursor:pointer;
+}
+
+/* -----------------------------------------------------------------Score------------------------------------------------------------- */
+
+.score
+{
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    padding-top:13%;
+    color:#27374D;
+    font-size:5vw;
+    padding-bottom:20px;
+}
+
+.showScore
+{
+    text-align: center;
+}
+
+
+/* -----------------------------------------------------------------Error------------------------------------------------------------- */
+
+.errormsg
+{
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    padding-top:15%;
+    color:#27374D;
+    font-size:3vw;
+    padding-bottom:20px;
+}
+
+.error
+{
+    text-align:center;
+}
+
+
+
